@@ -39,6 +39,14 @@ body{
 .container .direita h1{
     font-size: 50px;
 }
+
+.container .esquerda p{
+    font-size:20px;
+    color: rgb(91, 60, 193);
+   font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
 .container .direita .inp{
     width: 70%;
     height: 50px;
@@ -102,8 +110,24 @@ body{
 .container .direita .button{
     width: 50%;
     height: 50px;
-    margin-top:50px;
+    margin-top:20px;
     display: flex;  
     align-items: center;
     justify-content: center;
+}
+
+.container .direita .resultado {
+    
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #0b0000;
+    border: solid 10px#6194ef;
+    padding: 50px;
+    border-radius: 40px;  
+    background-color: rgba(95, 224, 95, 0.845);
+
+
 }

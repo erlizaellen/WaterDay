@@ -1,12 +1,24 @@
-function calcularAgua() {
-    let nome = prompt("Digite seu nome:");
-    let peso = parseFloat(prompt("Digite seu peso (em kg):"));
+// const user ={
+    
+// }
 
-    if (isNaN(peso)) {
-      alert("Por favor, digite um peso válido.");
-      return;
-    }
 
-    let m = peso * 0.35;
-    alert("Sua cota de água por dia, " + nome + ", é: " + m.toFixed(2) + " litros");
-  }
+// function calcularAgua() {
+   
+
+//     if (user.peso){
+//         resultado = user.peso * 0.035;
+
+//         console.log("Voce precisa beber  "  + resultado + " litros de agua por dia.");
+
+//     }
+// }
+
+// calcularAgua(user.peso)
+
+
+
+
+
+    
+ 
